@@ -1,0 +1,47 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/index.js": 0,
+      "multi next/dist/pages/_app": 1,
+      "multi next/dist/pages/_error": 2,
+      "multi next/dist/pages/_document": 3
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/fQlXt0B8X89~JdeHu4gW2/pages/_app.js": 0,
+      "static/fQlXt0B8X89~JdeHu4gW2/pages/_document.js": 1,
+      "static/fQlXt0B8X89~JdeHu4gW2/pages/_error.js": 2,
+      "static/fQlXt0B8X89~JdeHu4gW2/pages/index.js": 3,
+      "static/nExAa2_OGIYabV1stTgj_/pages/_app.js": 4,
+      "static/nExAa2_OGIYabV1stTgj_/pages/_document.js": 5,
+      "static/nExAa2_OGIYabV1stTgj_/pages/_error.js": 6,
+      "static/nExAa2_OGIYabV1stTgj_/pages/index.js": 7,
+      "static/3JDwkTUAvK~RvL5j9pF3J/pages/_app.js": 0,
+      "static/3JDwkTUAvK~RvL5j9pF3J/pages/_document.js": 1,
+      "static/3JDwkTUAvK~RvL5j9pF3J/pages/_error.js": 2,
+      "static/3JDwkTUAvK~RvL5j9pF3J/pages/index.js": 3,
+      "static/1DsrujtOhBCgljcLln1TD/pages/_app.js": 4,
+      "static/1DsrujtOhBCgljcLln1TD/pages/_document.js": 5,
+      "static/1DsrujtOhBCgljcLln1TD/pages/_error.js": 6,
+      "static/1DsrujtOhBCgljcLln1TD/pages/index.js": 7,
+      "static/4cA_Lm~jzb0BcQX~8XlAL/pages/_app.js": 0,
+      "static/4cA_Lm~jzb0BcQX~8XlAL/pages/_document.js": 1,
+      "static/4cA_Lm~jzb0BcQX~8XlAL/pages/_error.js": 2,
+      "static/4cA_Lm~jzb0BcQX~8XlAL/pages/index.js": 3
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}
