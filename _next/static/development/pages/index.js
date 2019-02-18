@@ -2235,10 +2235,10 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fdung.nguyen%2Fworkplace%2Foss%2Freact-paginating.github.io%2Fpages%2Findex.js!./":
-/*!*****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fdung.nguyen%2Fworkplace%2Foss%2Freact-paginating.github.io%2Fpages%2Findex.js ***!
-  \*****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fdung.nguyen%2Fworkplace%2Foss%2Freact-paginating-demo%2Fpages%2Findex.js!./":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fdung.nguyen%2Fworkplace%2Foss%2Freact-paginating-demo%2Fpages%2Findex.js ***!
+  \************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3389,7 +3389,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/dung.nguyen/workplace/oss/react-paginating.github.io/pages/index.js";
+var _jsxFileName = "/Users/dung.nguyen/workplace/oss/react-paginating-demo/pages/index.js";
 
 
 var fruits = [["apple", "orange"], ["banana", "avocado"], ["coconut", "blueberry"], ["payaya", "peach"], ["pear", "plum"]];
@@ -3473,7 +3473,9 @@ function (_React$Component) {
             lineNumber: 54
           },
           __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, getPageItemProps({
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+          id: "first"
+        }, getPageItemProps({
           pageValue: 1,
           onPageChange: _this2.handlePageChange
         }), {
@@ -3482,13 +3484,15 @@ function (_React$Component) {
             lineNumber: 55
           },
           __self: this
-        }), "first"), hasPreviousPage && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, getPageItemProps({
+        }), "first"), hasPreviousPage && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+          id: "prev"
+        }, getPageItemProps({
           pageValue: previousPage,
           onPageChange: _this2.handlePageChange
         }), {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 65
+            lineNumber: 66
           },
           __self: this
         }), "<"), pages.map(function (page) {
@@ -3500,7 +3504,9 @@ function (_React$Component) {
             };
           }
 
-          return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, getPageItemProps({
+          return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+            id: page
+          }, getPageItemProps({
             pageValue: page,
             key: page,
             style: activePage,
@@ -3508,26 +3514,30 @@ function (_React$Component) {
           }), {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 81
+              lineNumber: 83
             },
             __self: this
           }), page);
-        }), hasNextPage && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, getPageItemProps({
+        }), hasNextPage && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+          id: "nexr"
+        }, getPageItemProps({
           pageValue: nextPage,
           onPageChange: _this2.handlePageChange
         }), {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 95
+            lineNumber: 98
           },
           __self: this
-        }), ">"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, getPageItemProps({
+        }), ">"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+          id: "last"
+        }, getPageItemProps({
           pageValue: totalPages,
           onPageChange: _this2.handlePageChange
         }), {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 105
+            lineNumber: 109
           },
           __self: this
         }), "last"));
@@ -3543,13 +3553,13 @@ function (_React$Component) {
 /***/ }),
 
 /***/ 1:
-/*!*********************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fdung.nguyen%2Fworkplace%2Foss%2Freact-paginating.github.io%2Fpages%2Findex.js ***!
-  \*********************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fdung.nguyen%2Fworkplace%2Foss%2Freact-paginating-demo%2Fpages%2Findex.js ***!
+  \****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fdung.nguyen%2Fworkplace%2Foss%2Freact-paginating.github.io%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fdung.nguyen%2Fworkplace%2Foss%2Freact-paginating.github.io%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fdung.nguyen%2Fworkplace%2Foss%2Freact-paginating-demo%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fdung.nguyen%2Fworkplace%2Foss%2Freact-paginating-demo%2Fpages%2Findex.js!./");
 
 
 /***/ }),
