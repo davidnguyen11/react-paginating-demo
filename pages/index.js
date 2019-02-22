@@ -53,6 +53,7 @@ class Index extends React.Component {
             }) => (
               <div>
                 <button
+                  data-value="first"
                   {...getPageItemProps({
                     pageValue: 1,
                     onPageChange: this.handlePageChange
@@ -63,6 +64,7 @@ class Index extends React.Component {
   
                 {hasPreviousPage && (
                   <button
+                    data-value="prev"
                     {...getPageItemProps({
                       pageValue: previousPage,
                       onPageChange: this.handlePageChange
@@ -79,6 +81,7 @@ class Index extends React.Component {
                   }
                   return (
                     <button
+                      data-value={page}
                       {...getPageItemProps({
                         pageValue: page,
                         key: page,
@@ -93,6 +96,7 @@ class Index extends React.Component {
   
                 {hasNextPage && (
                   <button
+                    data-value="next"
                     {...getPageItemProps({
                       pageValue: nextPage,
                       onPageChange: this.handlePageChange
@@ -103,6 +107,7 @@ class Index extends React.Component {
                 )}
   
                 <button
+                  data-value="last"
                   {...getPageItemProps({
                     pageValue: totalPages,
                     onPageChange: this.handlePageChange
